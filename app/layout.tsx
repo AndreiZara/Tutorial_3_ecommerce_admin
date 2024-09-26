@@ -16,7 +16,6 @@ export const metadata = {
   description: 'Admin Dashboard',
 }
 
-
 export default function RootLayout({
   children,
 }: {

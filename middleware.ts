@@ -2,7 +2,8 @@ import { clerkMiddleware } from '@clerk/nextjs/server';
 
 export default clerkMiddleware();
 
-export const config = {
+export const
+ config = {
   matcher: [
     '/api/:path*',
     // Skip Next.js internals and all static files, unless found in search params
@@ -10,4 +11,4 @@ export const config = {
     // Always run for API routes
     '/(api|trpc)(.*)',
   ],
-};
+}; 
