@@ -3,7 +3,7 @@ import { ClerkProvider,
   SignedIn, 
   SignedOut, 
   UserButton } from '@clerk/nextjs';
-import type { Metadata } from "next";  //global imports
+
 
 import { ModalProvider } from '@/providers/modal-provider'; //local import
 import { ToasterProvider } from '@/providers/toast-provider';
